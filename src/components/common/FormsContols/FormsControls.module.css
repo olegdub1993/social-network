@@ -1,0 +1,12 @@
+.formsControls.error textarea,
+.formsControls.error input {
+  border: 2px solid rgb(197, 3, 3);
+}
+.formsControls.error span {
+  color: rgb(197, 3, 3);
+}
+.formsControls span {
+  position: absolute;
+  display: block;
+  height: 10px;
+}

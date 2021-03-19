@@ -1,0 +1,37 @@
+.nav {
+  margin-bottom: 20px;
+}
+.nav__list {
+  padding: 0;
+  margin: 0;
+}
+.nav__item {
+  color: black;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.nav__item:hover .nav__link::after {
+  width: 100%;
+}
+.nav__link {
+  color: inherit;
+  font-weight: bold;
+  position: relative;
+}
+.nav__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  background-color: black;
+  transition: all 0.2s linear;
+}
+.nav__link.active {
+  color: rgb(2, 48, 109);
+}

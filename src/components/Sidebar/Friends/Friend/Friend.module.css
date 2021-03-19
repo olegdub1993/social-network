@@ -1,0 +1,23 @@
+.friends__item {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.friends__avatar {
+  display: block;
+
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+  overflow: hidden;
+}
+.friends__photo {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.friends__name {
+  width: 55%;
+  margin-left: 10px;
+}
